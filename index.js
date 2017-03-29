@@ -26,7 +26,7 @@ app.intent('getMenu',
   },
   function(request,response) {
     var date = request.slot('date');
-    response.say("Zikkimin koku var "+ date);
+    response.say("Kaspressknodel mit Salat "+ date);
   }
 );
 
