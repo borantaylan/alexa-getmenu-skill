@@ -57,7 +57,7 @@ app.intent('getMenu', {
                     $(this).find('.category').each(function() {
                         if ($(this).find('.category-content > p').length) {
                             var title = $(this).find('.category-title').html();
-                            if(title == "Tagesteller"){title = "Tage steller";}
+                            if(title == "Tagesteller"){title = "Tages teller";}
                             output = output + title + ":";
                             $(this).find('.category-content > p').each(function() {
                                 output = output + " " + $(this).html().replace(/ *\([^)]*\) */g, "");
