@@ -11,7 +11,7 @@ var moment = require('moment');
 
 
 app.launch(function(request, response) {
-    response.say('Willkommen im Techcafe!').reprompt('Way to go. You got it to run. Bad ass.').shouldEndSession(false);
+    response.say('Willkommen im Techcafe!').reprompt('Bitte?').shouldEndSession(false);
 });
 
 
